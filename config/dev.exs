@@ -36,8 +36,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :one2relay, One2relay.Repo,
   adapter: Ecto.Adapters.MySQL,
-  username: "root",
-  password: "admin",
+  username: "myapp",
+  password: "something",
   database: "one2relay_dev",
   hostname: "localhost",
   pool_size: 10
